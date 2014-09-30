@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C227847519DA415600944917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227847419DA415600944917 /* Foundation.framework */; };
+		C227847719DA415600944917 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227847619DA415600944917 /* CoreGraphics.framework */; };
+		C227847919DA415600944917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227847819DA415600944917 /* UIKit.framework */; };
+		C227847F19DA415600944917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C227847D19DA415600944917 /* InfoPlist.strings */; };
+		C227848119DA415600944917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C227848019DA415600944917 /* main.m */; };
+		C227848519DA415600944917 /* ZYYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C227848419DA415600944917 /* ZYYAppDelegate.m */; };
+		C227848819DA415600944917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C227848619DA415600944917 /* Main.storyboard */; };
+		C227848B19DA415600944917 /* ZYYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C227848A19DA415600944917 /* ZYYViewController.m */; };
+		C227848D19DA415600944917 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C227848C19DA415600944917 /* Images.xcassets */; };
+		C227849419DA415600944917 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227849319DA415600944917 /* XCTest.framework */; };
+		C227849519DA415600944917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227847419DA415600944917 /* Foundation.framework */; };
+		C227849619DA415600944917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C227847819DA415600944917 /* UIKit.framework */; };
+		C227849E19DA415600944917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C227849C19DA415600944917 /* InfoPlist.strings */; };
+		C22784A019DA415600944917 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C227849F19DA415600944917 /* _________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C227849719DA415600944917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C227846919DA415600944917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C227847019DA415600944917;
+			remoteInfo = "百思不得姐-张莹莹";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C227847119DA415600944917 /* 百思不得姐-张莹莹.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐-张莹莹.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C227847419DA415600944917 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C227847619DA415600944917 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C227847819DA415600944917 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C227847C19DA415600944917 /* 百思不得姐-张莹莹-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "百思不得姐-张莹莹-Info.plist"; sourceTree = "<group>"; };
+		C227847E19DA415600944917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C227848019DA415600944917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C227848219DA415600944917 /* 百思不得姐-张莹莹-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "百思不得姐-张莹莹-Prefix.pch"; sourceTree = "<group>"; };
+		C227848319DA415600944917 /* ZYYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYYAppDelegate.h; sourceTree = "<group>"; };
+		C227848419DA415600944917 /* ZYYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYAppDelegate.m; sourceTree = "<group>"; };
+		C227848719DA415600944917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C227848919DA415600944917 /* ZYYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYYViewController.h; sourceTree = "<group>"; };
+		C227848A19DA415600944917 /* ZYYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYViewController.m; sourceTree = "<group>"; };
+		C227848C19DA415600944917 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C227849219DA415600944917 /* 百思不得姐-张莹莹Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐-张莹莹Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C227849319DA415600944917 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C227849B19DA415600944917 /* 百思不得姐-张莹莹Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "百思不得姐-张莹莹Tests-Info.plist"; sourceTree = "<group>"; };
+		C227849D19DA415600944917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C227849F19DA415600944917 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C227846E19DA415600944917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C227847719DA415600944917 /* CoreGraphics.framework in Frameworks */,
+				C227847919DA415600944917 /* UIKit.framework in Frameworks */,
+				C227847519DA415600944917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C227848F19DA415600944917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C227849419DA415600944917 /* XCTest.framework in Frameworks */,
+				C227849619DA415600944917 /* UIKit.framework in Frameworks */,
+				C227849519DA415600944917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C227846819DA415600944917 = {
+			isa = PBXGroup;
+			children = (
+				C227847A19DA415600944917 /* 百思不得姐-张莹莹 */,
+				C227849919DA415600944917 /* 百思不得姐-张莹莹Tests */,
+				C227847319DA415600944917 /* Frameworks */,
+				C227847219DA415600944917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C227847219DA415600944917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C227847119DA415600944917 /* 百思不得姐-张莹莹.app */,
+				C227849219DA415600944917 /* 百思不得姐-张莹莹Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C227847319DA415600944917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C227847419DA415600944917 /* Foundation.framework */,
+				C227847619DA415600944917 /* CoreGraphics.framework */,
+				C227847819DA415600944917 /* UIKit.framework */,
+				C227849319DA415600944917 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C227847A19DA415600944917 /* 百思不得姐-张莹莹 */ = {
+			isa = PBXGroup;
+			children = (
+				C227848319DA415600944917 /* ZYYAppDelegate.h */,
+				C227848419DA415600944917 /* ZYYAppDelegate.m */,
+				C227848619DA415600944917 /* Main.storyboard */,
+				C227848919DA415600944917 /* ZYYViewController.h */,
+				C227848A19DA415600944917 /* ZYYViewController.m */,
+				C227848C19DA415600944917 /* Images.xcassets */,
+				C227847B19DA415600944917 /* Supporting Files */,
+			);
+			path = "百思不得姐-张莹莹";
+			sourceTree = "<group>";
+		};
+		C227847B19DA415600944917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C227847C19DA415600944917 /* 百思不得姐-张莹莹-Info.plist */,
+				C227847D19DA415600944917 /* InfoPlist.strings */,
+				C227848019DA415600944917 /* main.m */,
+				C227848219DA415600944917 /* 百思不得姐-张莹莹-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C227849919DA415600944917 /* 百思不得姐-张莹莹Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C227849F19DA415600944917 /* _________Tests.m */,
+				C227849A19DA415600944917 /* Supporting Files */,
+			);
+			path = "百思不得姐-张莹莹Tests";
+			sourceTree = "<group>";
+		};
+		C227849A19DA415600944917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C227849B19DA415600944917 /* 百思不得姐-张莹莹Tests-Info.plist */,
+				C227849C19DA415600944917 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C227847019DA415600944917 /* 百思不得姐-张莹莹 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22784A319DA415600944917 /* Build configuration list for PBXNativeTarget "百思不得姐-张莹莹" */;
+			buildPhases = (
+				C227846D19DA415600944917 /* Sources */,
+				C227846E19DA415600944917 /* Frameworks */,
+				C227846F19DA415600944917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐-张莹莹";
+			productName = "百思不得姐-张莹莹";
+			productReference = C227847119DA415600944917 /* 百思不得姐-张莹莹.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C227849119DA415600944917 /* 百思不得姐-张莹莹Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22784A619DA415600944917 /* Build configuration list for PBXNativeTarget "百思不得姐-张莹莹Tests" */;
+			buildPhases = (
+				C227848E19DA415600944917 /* Sources */,
+				C227848F19DA415600944917 /* Frameworks */,
+				C227849019DA415600944917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C227849819DA415600944917 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐-张莹莹Tests";
+			productName = "百思不得姐-张莹莹Tests";
+			productReference = C227849219DA415600944917 /* 百思不得姐-张莹莹Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C227846919DA415600944917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C227849119DA415600944917 = {
+						TestTargetID = C227847019DA415600944917;
+					};
+				};
+			};
+			buildConfigurationList = C227846C19DA415600944917 /* Build configuration list for PBXProject "百思不得姐-张莹莹" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C227846819DA415600944917;
+			productRefGroup = C227847219DA415600944917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C227847019DA415600944917 /* 百思不得姐-张莹莹 */,
+				C227849119DA415600944917 /* 百思不得姐-张莹莹Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C227846F19DA415600944917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C227848D19DA415600944917 /* Images.xcassets in Resources */,
+				C227847F19DA415600944917 /* InfoPlist.strings in Resources */,
+				C227848819DA415600944917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C227849019DA415600944917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C227849E19DA415600944917 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C227846D19DA415600944917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C227848119DA415600944917 /* main.m in Sources */,
+				C227848519DA415600944917 /* ZYYAppDelegate.m in Sources */,
+				C227848B19DA415600944917 /* ZYYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C227848E19DA415600944917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22784A019DA415600944917 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C227849819DA415600944917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C227847019DA415600944917 /* 百思不得姐-张莹莹 */;
+			targetProxy = C227849719DA415600944917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C227847D19DA415600944917 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C227847E19DA415600944917 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C227848619DA415600944917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C227848719DA415600944917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C227849C19DA415600944917 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C227849D19DA415600944917 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22784A119DA415600944917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C22784A219DA415600944917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22784A419DA415600944917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐-张莹莹/百思不得姐-张莹莹-Prefix.pch";
+				INFOPLIST_FILE = "百思不得姐-张莹莹/百思不得姐-张莹莹-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C22784A519DA415600944917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐-张莹莹/百思不得姐-张莹莹-Prefix.pch";
+				INFOPLIST_FILE = "百思不得姐-张莹莹/百思不得姐-张莹莹-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C22784A719DA415600944917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/百思不得姐-张莹莹.app/百思不得姐-张莹莹";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐-张莹莹/百思不得姐-张莹莹-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "百思不得姐-张莹莹Tests/百思不得姐-张莹莹Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C22784A819DA415600944917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/百思不得姐-张莹莹.app/百思不得姐-张莹莹";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐-张莹莹/百思不得姐-张莹莹-Prefix.pch";
+				INFOPLIST_FILE = "百思不得姐-张莹莹Tests/百思不得姐-张莹莹Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C227846C19DA415600944917 /* Build configuration list for PBXProject "百思不得姐-张莹莹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22784A119DA415600944917 /* Debug */,
+				C22784A219DA415600944917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22784A319DA415600944917 /* Build configuration list for PBXNativeTarget "百思不得姐-张莹莹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22784A419DA415600944917 /* Debug */,
+				C22784A519DA415600944917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C22784A619DA415600944917 /* Build configuration list for PBXNativeTarget "百思不得姐-张莹莹Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22784A719DA415600944917 /* Debug */,
+				C22784A819DA415600944917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C227846919DA415600944917 /* Project object */;
+}
