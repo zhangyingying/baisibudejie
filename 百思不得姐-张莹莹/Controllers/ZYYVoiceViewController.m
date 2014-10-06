@@ -204,13 +204,13 @@ static NSInteger voicePage = 1;
     return cell;
 }
 - (void)handleVoiceButton:(UIButton *)sender{
-//    listonButtonNumber++;
+
 //    ZYYVoiceCell *cell = (ZYYVoiceCell *)sender.superview.superview.superview.superview;
     ZYYVoiceCell *cell = [self findBtnSuperCell:sender];
     NSIndexPath *indexPath = [self.voiceTableView indexPathForCell:cell];
     ZYYHomeModel *model = [[ZYYHomeModel alloc] init];
     model = [self.voiceArray objectAtIndex:indexPath.row];
-//    NSLog(@"%d",indexPath.row);
+
         if (!sender.selected) {
         [sender setImage:[UIImage imageNamed:@"playButtonPause.png"] forState:UIControlStateNormal];
         sender.frame = CGRectMake(0, sender.frame.origin.y, 50, 50);
